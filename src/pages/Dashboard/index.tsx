@@ -47,6 +47,8 @@ const Dashboard: React.FC = () => {
       return;
     }
 
+    // teste
+
     try {
       const response = await api.get(`repos/${newRepo}`);
 
